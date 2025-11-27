@@ -1,2 +1,6 @@
 .cache
 __pycache__
+feedback_agent/config.py
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/vcs.xml
