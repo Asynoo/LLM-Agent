@@ -10,6 +10,7 @@ def main():
 
     user_proxy.initiate_chat(
         research_agent,
+        #TODO: Find some alternate better prompt maybe? A few specific and broad.
         message="Find a research paper on machine learning that was published after 2015 and has at least 50 citations."
     )
 

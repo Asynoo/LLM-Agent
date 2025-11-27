@@ -4,6 +4,8 @@ from feedback_agent.config import LLM_CONFIG
 
 def create_research_agent() -> ConversableAgent:
     agent = ConversableAgent(
+
+        #TODO: We need to formulate a better background for the agent, right now some of the agents doesnt strictly follow user-prompt.
         name="Research Agent",
         system_message="You are a helpful AI assistant. "
                       "You can help find research papers using the search_papers tool. "
