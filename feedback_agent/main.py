@@ -18,7 +18,7 @@ def main():
     evaluator = create_evaluator_agent()
     eval_proxy = create_user_proxy()
 
-    eval_proxy.initiate_chat(evaluator, message=f"Task: {task} \nAgent Result: {result} \nDid the agent succeed?")
+    eval_proxy.initiate_chat(evaluator, message=f"Task: {task} \nAgent Result: {result} \nDid the agent succeed?", max_turns=2)
     evaluation = eval_proxy.last_message(evaluator)["content"]
 
     print("Research Agent Results:")
