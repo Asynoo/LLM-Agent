@@ -6,6 +6,7 @@ def create_research_agent() -> ConversableAgent:
     agent = ConversableAgent(
 
         #TODO: We need to formulate a better background for the agent, right now some of the agents doesnt strictly follow user-prompt.
+        #TODO: It seems the agent has a bad habit of hallucinating, but hey that shows it works...
         name="Research Agent",
         system_message="You are a research paper finding specialist. "
                        "When the user asks to find research papers, use the search_papers tool. "
