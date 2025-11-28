@@ -1,7 +1,16 @@
+<<<<<<< Updated upstream
+=======
+# scrated a new requirements.txt file with updated dependencies
+>>>>>>> Stashed changes
 autogen-agentchat @ git+https://github.com/patrickstolc/autogen.git@0.2#egg=autogen-agentchat
 autogen==0.3.1
 mistralai==1.2.3
 ollama==0.3.3
 fix-busted-json==0.0.18
 requests==2.31.0
+<<<<<<< Updated upstream
 python-dotenv==1.0.0
+=======
+python-dotenv==1.0.0
+
+>>>>>>> Stashed changes
